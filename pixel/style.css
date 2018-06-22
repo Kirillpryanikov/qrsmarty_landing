@@ -1,0 +1,1493 @@
+/*--------------------------------------------------------------------------------------
+Theme Name: PIXEL
+Theme URI: http://devitfamily.com
+Author URI: http://devitfamily.com
+Description: 100% Responsive, Highly Customizable, SEO Friendly APPS Landing HTML template using Twitter Bootstrap Latest, Search Engine Friendly.
+Author: BDEXPERT
+Version: 1.0
+----------------------------------------------------------------------------------------
+   1. BASE CSS
+    2. TOP AREA
+        2.1 MAINMENU AREA
+        2.2 SLIDER AREA
+    3. ABOUT AREA
+    4. FEATURES AREA
+    5. FUN FACT AREA
+    6. SCREENSHOT AREA
+    7. TESTMONIAL AREA
+    8. PRICEING AREA
+    9. TEAM AREA
+    10. DOWNLOAD AREA
+    11. CONTACT AREA
+    12. FOOTER AREA
+    13. SCROLL TO TOP
+----------------------------------------------------------------------------------------*/
+
+
+/*--------------------
+   1. BASE CSS
+----------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,500,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+a:focus,
+a:hover {
+    outline: 0 solid;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #474256;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.navbar-toggle {
+    border: 2px solid #e96944;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background: #e96944 none repeat scroll 0 0;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.area-title {
+    margin-bottom: 60px;
+}
+
+.area-title h2 {
+    color: #474256;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.area-title h2 span {
+    color: #e96944;
+}
+
+.area-title p {
+    margin-bottom: 0;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.padding-top {
+    padding-top: 100px;
+}
+
+.padding-bottom {
+    padding-bottom: 100px;
+}
+
+.red-bg {
+    background: #e96944;
+    color: #fff;
+}
+
+.red-bg .area-title h2 {
+    color: #fff;
+}
+
+
+/*--------------------------
+    2. TOP AREA
+---------------------------*/
+
+.top-area {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.top-area-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.top-area-bg::before {
+    background: rgba(0, 0, 0, 0) url("img/slider/slide_1.jpg") no-repeat scroll 0 0 / cover;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.top-area-bg::after {
+    background: #474256;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+/*---------------------------------
+    2.1 MAINMENU AREA
+-----------------------------------*/
+
+.mainmenu-area {
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 9999;
+    border-bottom: 2px solid #e96944;
+}
+
+.is-sticky .navbar-brand {
+    display: none;
+}
+
+.is-sticky .navbar-brand-dark {
+    display: block;
+}
+
+.navbar-brand-dark {
+    display: none;
+}
+
+.navbar-header {
+    margin-top: 15px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar {
+    border-bottom: 0 none;
+    border-top: 0 none;
+    margin-bottom: 0;
+}
+
+ul#nav {
+    float: right;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+ul#nav li {
+    overflow: hidden;
+}
+
+ul#nav li a {
+    position: relative;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 40px 15px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+ul#nav li a::before {
+    background: #e96944 none repeat scroll 0 0;
+    bottom: -12px;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+ul#nav li a::after {
+    background: #e96944 none repeat scroll 0 0;
+    bottom: -12px;
+    content: "";
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 10px;
+}
+
+ul#nav li a:hover,
+ul#nav li.active a {
+    color: #e96944;
+}
+
+ul#nav li a:hover:before,
+ul#nav li.active a:before {
+    bottom: 0;
+}
+
+ul#nav li a:hover:after,
+ul#nav li.active a:after {
+    bottom: -1px;
+}
+
+.is-sticky ul#nav li a {
+    padding: 20px 15px;
+    color: #474256;
+}
+
+.is-sticky ul#nav li a:hover,
+.is-sticky ul#nav li.active a {
+    color: #d64332;
+}
+
+.is-sticky .mainmenu-area {
+    background: #fff none repeat scroll 0 0;
+}
+
+.is-sticky .navbar-header {
+    margin-top: -3px;
+}
+
+
+/*-----------------------------------
+    2.2 SLIDER AREA
+-------------------------------------*/
+
+.small-slider-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.side-text {
+    margin-top: 50px;
+}
+
+.header-top-area {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    text-transform: uppercase;
+}
+
+.slider-area {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: #fff;
+}
+
+.slider-area h1 {
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+.slider-area h1 span {
+    color: #e96944;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-area h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.slider-area h2::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -110px;
+    position: absolute;
+    width: 220px;
+}
+
+.slider-area .slider-text-area {
+
+}
+
+.home-slider-button {
+    margin-top: 100px;
+}
+
+.home-slider-button a {
+    background: #e96944 none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-family: raleway;
+    padding: 10px 20px 10px 50px;
+    position: relative;
+    text-transform: uppercase;
+    width: 220px;
+    margin: 0 10px;
+}
+
+.home-slider-button a:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #e96944;
+}
+
+.home-slider-button a i {
+    border-right: 1px solid;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    width: 40px;
+}
+
+.home-social-bookmark {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 9;
+}
+
+.home-social-bookmark ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.home-social-bookmark ul li {
+    display: inline;
+}
+
+.home-social-bookmark ul li a {
+    background: #474256 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fefefe;
+    display: inline-block;
+    font-size: 10px;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+}
+
+.home-social-bookmark ul li a:hover {
+    background: #e96944;
+}
+
+
+/*------------------------*/
+
+.pogoSlider {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.pogoSlider-slide {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+    position: absolute;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 10%
+}
+
+.pogoSlider-slide:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: .7;
+    z-index: -1;
+}
+
+.is-sticky .mainmenu-area {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    z-index: 99999;
+}
+
+
+/*-----------------------------
+    3. ABOUT AREA
+-------------------------------*/
+
+.about-area {
+    overflow: hidden;
+    position: relative;
+}
+
+.about-area-bg {
+    background: rgba(0, 0, 0, 0) url("img/features/hand.png") no-repeat scroll right bottom;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+.single-about,
+.single-features {
+    margin-bottom: 50px;
+    padding-left: 90px;
+    position: relative;
+}
+
+.about-icon,
+.features-icon {
+    background: #e1e1e1 none repeat scroll 0 0;
+    color: #d64332;
+    font-size: 35px;
+    height: 60px;
+    left: 0;
+    padding-top: 13px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.about-icon::after {
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #e1e1e1;
+    border-top: 5px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -5px;
+    top: 7px;
+    width: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.single-about h3,
+.single-features h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.single-about:hover h3 {
+    color: #e96944;
+}
+
+.single-about:hover .about-icon {
+    background: #e96944 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.single-about:hover .about-icon::after {
+    border-left: 5px solid #e96944;
+}
+
+.about-video-area .area-title {
+    margin-bottom: 0;
+}
+
+.video-area {
+    max-height: 700px;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+}
+
+.video-area::before,
+.video-area::after {
+    background: #474256;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+
+.video-area::before {
+    background: rgba(0, 0, 0, 0) url("img/video_bg.jpg") repeat scroll center center / cover;
+    opacity: 1;
+}
+
+.video-area.palying::before,
+.video-area.palying::after {
+    opacity: 0;
+}
+
+video {
+    width: 100%;
+}
+
+.video-area > button {
+    background: transparent none repeat scroll 0 0;
+    border: 0;
+    border-radius: 50%;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    z-index: 9;
+}
+
+.video-area > button:focus {
+    outline: none;
+}
+
+.video-area > button .fa {
+    border: 5px solid;
+    border-radius: 50%;
+    height: 100px;
+    padding-top: 20px;
+    width: 100px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.video-area > button .fa-play {
+    padding-left: 15px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.video-area > button .fa-pause {
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.video-area > button:hover .fa-pause {
+    opacity: .3;
+}
+
+
+/*-----------------------------
+    4. FEATURES AREA
+------------------------------*/
+
+.features-area .area-title {
+    margin-bottom: 260px;
+}
+
+.features-details.features-details-img {
+    height: 470px;
+    margin-top: -320px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.divider {
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+}
+
+.features-details-left,
+.features-details-right {
+    position: relative;
+}
+
+selectorSavingError {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 92px;
+    z-index: 9;
+}
+
+.features-left-border,
+.features-right-border {
+    background: white none repeat scroll 0 0;
+    height: 1px;
+    left: 114%;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+}
+
+.features-right-border {
+    left: auto;
+    right: 114%;
+}
+
+.features-left-border::after,
+.features-right-border::after {
+    background: white none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    left: 0;
+    margin-top: -5px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+
+.features-right-border::after {
+    left: auto;
+    right: 0;
+}
+
+.single-features {
+    margin-bottom: 100px;
+}
+
+.features-icon {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid;
+    color: #fff;
+}
+
+.features-icon:after {
+    position: absolute;
+    right: -6px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    background: #e96944;
+    content: "";
+    border-top: 1px solid;
+    border-right: 1px solid;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.single-features:hover .features-icon::after {
+    background: #fff none repeat scroll 0 0;
+}
+
+.single-features:hover .features-icon {
+    background: #fff none repeat scroll 0 0;
+    color: #e96944;
+}
+
+
+/*-----------------------------------
+    5. FUN FACT AREA
+------------------------------------*/
+
+.fun-fact-area.section-padding {
+    padding-bottom: 50px;
+}
+
+.single-fact {
+    color: #fff;
+    letter-spacing: 1px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.single-fact::before {
+    background: #e96944 none repeat scroll 0 0;
+    content: "";
+    height: 130px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 130px;
+    z-index: -1;
+    margin: auto;
+}
+
+.single-fact::after {
+    background: #e96944 none repeat scroll 0 0;
+    bottom: -132%;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.single-fact h4 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.fact-icon {
+    background: #e96944 none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #fff;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -35px;
+    padding-top: 12px;
+    position: absolute;
+    top: -50px;
+    width: 50px;
+}
+
+
+/*---------------------------------
+    6. SCREENSHOT AREA
+----------------------------------*/
+
+.screenshot-area .area-title {
+    margin-bottom: 130px;
+}
+
+.mobile_screen {
+    left: 50%;
+    margin-left: -170px;
+    margin-top: -112px;
+    position: absolute;
+    width: auto;
+    z-index: 9;
+}
+
+.owl-item.active.center img {
+    left: 50%;
+    margin: auto auto auto -132px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: auto;
+    z-index: 9;
+}
+
+.screenshot-slider .owl-item img {
+    margin: 0 auto;
+    max-height: 411px;
+    max-width: 100%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: auto;
+}
+
+.screenshot-slider .owl-controls {
+    margin-top: 135px;
+    text-align: center;
+}
+
+.screenshot-area .owl-nav > div {
+    color: #e96944;
+    display: inline-block;
+    font-size: 35px;
+    height: 40px;
+    text-align: center;
+    width: 70px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.screenshot-area .owl-nav {
+    border-bottom: 1px solid #e96944;
+    /*bottom: -150px;*/
+    display: inline-block;
+}
+
+.screenshot-area .owl-nav > div:hover {
+    color: #474256;
+}
+
+
+/*------------------------------
+    7. TESTMONIAL AREA
+-------------------------------*/
+
+.testmonial-area {
+    position: relative;
+}
+
+.testmonial-area .area-title h2 {
+    color: #fff;
+}
+
+.testmonial-area-bg {
+    background: rgba(0, 0, 0, 0) url("img/testmonial/testmonial_bg.jpg") no-repeat scroll 0 0 / cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.testmonial-area-bg::after {
+    background: #474256 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.single-testmonial {
+    color: #fff;
+    padding-left: 75px;
+    position: relative;
+}
+
+.testmonial-img {
+    border-radius: 50%;
+    height: 150px;
+    left: 0;
+    margin-top: -75px;
+    position: absolute;
+    top: 50%;
+    width: 150px;
+}
+
+.testmonial-author-details {
+    background: rgba(228, 49, 69, 0.7) none repeat scroll 0 0;
+    padding: 40px 20px 40px 100px;
+}
+
+.testmonial-img > img {
+    background: #474256 none repeat scroll 0 0;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.testmonial-author-details h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.testmonial-author-details h4 span {
+    display: block;
+    font-size: 14px;
+}
+
+.row.testmonial-slider {
+    margin: 0 auto;
+}
+
+.testmonial-area .owl-nav > div {
+    color: #e96944;
+    display: inline-block;
+    font-size: 55px;
+    height: 60px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 40px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.testmonial-area .owl-nav > div:hover {
+    color: #ffffff;
+}
+
+.testmonial-area .owl-nav > div.owl-next {
+    right: -60px;
+}
+
+.testmonial-area .owl-nav > div.owl-prev {
+    left: -60px;
+}
+
+.testmonial-area .testmonial-slider .col-lg-6 {
+    width: 100%;
+}
+
+
+/*------------------------------
+    8. PRICEING AREA
+-------------------------------*/
+
+.single-price {
+    border: 1px solid #e1e1e1;
+    border-radius: 25px;
+    margin-top: 50px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.active .price-title {
+    padding: 50px 0;
+}
+
+.price-title,
+.price-button {
+    background: #e1e1e1 none repeat scroll 0 0;
+    color: #e96944;
+    padding: 20px;
+    position: relative;
+}
+
+.price-title p {
+    text-transform: uppercase;
+}
+
+.price-title h3 {
+    font-size: 38px;
+}
+
+.price-title h3 span {
+    font-size: 24px;
+}
+
+.price-details {
+    padding: 50px 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.price-details ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.price-details ul li {
+    padding: 7px 0;
+}
+
+.price-title {
+    border-radius: 20px 20px 0 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.price-button {
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 60px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.price-button a {
+    background: #e1e1e1 none repeat scroll 0 0;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #e96944;
+    height: 40px;
+    left: 50%;
+    margin-left: -100px;
+    padding: 5px;
+    position: absolute;
+    top: -20px;
+    width: 200px;
+}
+
+.price-button a i {
+    margin-right: 20px;
+}
+
+.single-price.active,
+.single-price:hover {
+    background: #e96944 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.single-price.active .price-title,
+.single-price:hover .price-title {
+    background: #C6502D none repeat scroll 0 0;
+    color: #fff;
+}
+
+.single-price.active .price-button,
+.single-price:hover .price-button {
+    background: #C6502D none repeat scroll 0 0;
+}
+
+.price-button a:hover {
+    background: #C6502D none repeat scroll 0 0;
+    color: #fff;
+}
+
+.single-price.active {
+    margin-top: 0;
+}
+
+
+/*-----------------------------
+    9. TEAM AREA
+-------------------------------*/
+
+.team-area {
+    position: relative;
+    color: #fff;
+}
+
+.team-title h2{
+    color: #fff;
+}
+
+.team-area-bg {
+    background: rgba(0, 0, 0, 0) url("img/team/team_bg.png") no-repeat scroll 0 0 / cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.team-area-bg::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.single-team {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.member-name-and-image {
+    border: 1px solid #e1e1e1;
+    border-radius: 400px 400px 0 0;
+    color: #e96944;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.member-name-and-image::after {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    bottom: -8.5px;
+    content: "";
+    height: 15px;
+    left: 50%;
+    margin-left: -7.5px;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 15px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.member-img {
+    border: 1px solid #e1e1e1;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.member-img > img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.single-team:hover .member-name-and-image {
+    background: #e96944 none repeat scroll 0 0;
+    border-color: red;
+    color: #fff;
+}
+
+.single-team:hover .member-img {
+    border-color: #e96944;
+}
+
+.single-team:hover .member-name-and-image::after {
+    background: #e96944 none repeat scroll 0 0;
+    border-color: #e96944;
+}
+
+.member-name-and-image h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.member-name-and-image h3 span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.member-details {
+    margin-top: 20px;
+}
+
+.member-social-bookmark {
+    border-bottom: 1px solid #e1e1e1;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single-team:hover .member-social-bookmark {
+    border-bottom: 1px solid #e96944;
+}
+
+.member-social-bookmark ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.member-social-bookmark ul li {
+    display: inline;
+}
+
+.member-social-bookmark ul li a {
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+    height: 30px;
+    padding-top: 1px;
+    width: 30px;
+    color: #e96944;
+}
+
+.member-social-bookmark ul li a:hover {
+    background: #e96944;
+    color: #fff;
+    border-color: #e96944;
+}
+
+
+/*------------------------------
+    10. DOWNLOAD AREA
+--------------------------------*/
+
+ul.download-button {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul.download-button li {
+    display: inline;
+}
+
+ul.download-button li a {
+    border: 1px solid;
+    color: #e1e1e1;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 20px 15px 70px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+ul.download-button li a i {
+    font-size: 30px;
+    left: 20px;
+    position: absolute;
+    top: 12px;
+}
+
+ul.download-button li a:hover {
+    color: #e96944;
+    background: #e1e1e1;
+    border-color: #e1e1e1;
+}
+
+
+/*------------------------------
+    11. CONTACT AREA
+-------------------------------*/
+
+.contact-area {
+    color: #fff;
+    position: relative;
+}
+
+.contact-area-bg {
+    background: rgba(0, 0, 0, 0) url("img/footer_bg.png") no-repeat scroll 0 0 / cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.contact-area-bg::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.address-details,
+.contact-form {
+    margin-top: 40px;
+}
+
+.contact-area h3 {
+    border-bottom: 2px solid #e96944;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.address-details p {
+    padding-left: 40px;
+    position: relative;
+}
+
+.address-details p:first-child {
+    padding: 0;
+}
+
+.address-details p i {
+    color: #e96944;
+    height: 30px;
+    left: 0;
+    padding-top: 5px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 30px;
+}
+
+.form-control {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 #000;
+    color: #fff;
+    margin-bottom: 20px;
+    max-height: 120px;
+    min-height: 40px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.form-control:focus {
+    border-color: #e96944;
+    box-shadow: 0 0 3px #e96944;
+    color: #e96944;
+}
+
+.contact-form button {
+    background: #e96944 none repeat scroll 0 0;
+    border: 0;
+    float: right;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-form button:hover {
+    background: #fff none repeat scroll 0 0;
+    border-color: #fff;
+    color: #e96944;
+}
+
+.contact-area .alert-success {
+    background: #e96944;
+    border-color: #e96944;
+    color: #fff;
+}
+
+.form-group {
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    right: -20px;
+    top: 0;
+}
+
+
+/*------------------------------
+    12. FOOTER AREA
+-------------------------------*/
+
+.footer-area {
+    background: #222222 none repeat scroll 0 0;
+    border-top: 1px solid #e96944;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-copyright p {
+    margin-bottom: 0;
+}
+
+.footer-copyright a.footer-logo {
+    border-bottom: 2px solid;
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    max-width: 300px;
+    padding-bottom: 10px;
+}
+
+.footer-copyright a {
+    color: #e96944;
+}
+
+.footer-copyright ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.footer-copyright ul li {
+    display: inline;
+}
+
+.footer-copyright ul li a {
+    background: #474256 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    margin-left: 7px;
+    padding-top: 2px;
+    text-align: center;
+    width: 30px;
+}
+
+.footer-copyright ul li a:hover {
+    background: #e96944 none repeat scroll 0 0;
+}
+
+
+/*------------------------------
+    13. SCROLL TO TOP
+-------------------------------*/
+
+a.scrolltotop {
+    background: #e96944 none repeat scroll 0 0;
+    bottom: 20px;
+    color: #fff;
+    display: none;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 10px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 50px;
+    z-index: 99;
+    box-shadow: 0 0 0 7px transparent;
+    border: 1px solid #272727;
+}
+
+a.scrolltotop:hover {
+    box-shadow: 0 0 0 0 #272727;
+    background: #474256;
+    border: 1px solid #e96944;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
